@@ -1,0 +1,49 @@
+body
+{
+	padding: 0;
+	margin: 0;	
+}
+
+.ban
+{
+	height: 12%;
+	position: fixed;
+	background: rgba(42, 43, 44, 1);
+}
+
+.logoban
+{
+	height: 100%;
+	width: auto;
+	
+}
+
+#menu
+{
+
+}
+
+.lienmenu
+{
+	text-decoration: none;
+	color: rgba(20, 4, 189, 1);
+	border: 1px solid #000;
+	display: inline;
+}
+
+.lienmenu li
+{
+	color: rgba(20, 4, 189, 1);
+	display: inline;
+}
+
+.bangauche
+{
+	text-align: center;
+	font-size:
+}
+
+.active
+{
+	background: pink;
+}
