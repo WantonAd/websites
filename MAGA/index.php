@@ -24,13 +24,32 @@
 			<div class="col-md-4 bangauche">
 				<a href="#" style="text-decoration: none; color: white; font-size: 200%;"><img class="logoban" src="img/logo.png"/> Make America Great Again</a>
 			</div>
-			<!--<ul id="menu">
-				<a href="#" class="lienmenu active"><li>Accueil</li></a>
-				<a href="#event" class="lienmenu"><li>Evènement/Calendrier</li></a>
-				<a href="#prog" class="lienmenu"><li>Programme</li></a>
-			</ul>-->
+			<div class="col-md-2"></div>
+			<div class="col-md-5 bandroite">
+				<ul id="menu">
+					<a href="#" class="active"><li>Accueil</li></a>
+					<a href="#"><li>Planning</li></a>
+					<a href="#"><li>Programme</li></a>
+				</ul>
+			</div>
 		</div>
 	<!-- Fin Bannière -->
-	 
+	<!-- Photo -->
+		<div id="trump">
+			<div id="citation">
+				<br>Citation :<br>
+				<i>"Les mexicains sont des zombies .. seul un mur les arrêter"<br>
+				Paris,  Jeudi 3 novembre 2017</i><br>
+			</div>
+			<div id="defiler">
+				<div class="defile active"></div>
+				<div class="defile"></div>
+				<div class="defile"></div>
+				<div class="defile"></div>
+				<div class="defile"></div>
+			</div>
+		<div>
+	<!-- Fin Photo -->				
+		</div>
 	</body>
 </html>

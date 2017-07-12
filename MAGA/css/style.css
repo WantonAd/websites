@@ -15,35 +15,92 @@ body
 {
 	height: 100%;
 	width: auto;
-	
+}
+
+.bandroite
+{
+	height: 100%;
 }
 
 #menu
 {
-
+	height: 100%;
+	display: table;
 }
 
-.lienmenu
+#menu
 {
-	text-decoration: none;
-	color: rgba(20, 4, 189, 1);
-	border: 1px solid #000;
-	display: inline;
+	height: 100%;
+	font-size: 130%;
+	display: table;
 }
-
-.lienmenu li
-{
-	color: rgba(20, 4, 189, 1);
-	display: inline;
-}
-
-.bangauche
+	
+#menu li, #menu a
 {
 	text-align: center;
-	font-size:
+	vertical-align: middle;
+	display: table-cell;
+	width: 150px;
+}
+
+#menu a
+{
+	color: white;
+	text-decoration: none;
+	margin-right: 500 px;
+}
+
+#menu a:hover
+{
+	background: rgba(250, 250, 250, 0.1);
 }
 
 .active
 {
-	background: pink;
+	background: blue;
+}
+
+#trump
+{
+	height: 80%;
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+	background: grey;
+}
+
+#citation
+{
+	height: 27%;
+	width: 70%;
+	margin-top: 25%;
+	margin-left: 15%;
+	background: rgba(250, 250, 250, 0.7);
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+#defiler
+{
+	height:auto;
+	width: 100%;
+	text-align: center;
+}
+
+.defile
+{
+	height: 30px;
+	width: 30px;
+	border: 2px solid black;
+	border-radius: 50%;
+	margin-top: 1%;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+.defile:hover
+{
+	background: rgba(250, 250, 250, 0.1);
 }
